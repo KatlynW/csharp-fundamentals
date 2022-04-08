@@ -22,7 +22,26 @@ inside that member.
 // HouseExample();
 // MyLocalFunction();
 // Lesson1Example();
-Exercise1();
+// Exercise1();
+Lesson2Example();
+
+
+
+// Lesson 2 Strings
+void Lesson2Example()
+{
+    Lesson2 mylesson2 = new Lesson2();
+    mylesson2.MyTrimExample();
+    int able = mylesson2.MyStringLength();
+    Console.WriteLine(able);
+    mylesson2.MyEqualsExample("Hello World");
+    mylesson2.MyExampleChar();
+    Console.WriteLine(mylesson2.MyEscapeExample());
+    mylesson2.MyJoinedStrings("CSharp", "Rules");
+    Console.WriteLine(mylesson2.MyInterpolationExample("pizza", 3));
+    mylesson2.MyOtherInterpolation();
+
+}
 
 void HouseExample()
 {
