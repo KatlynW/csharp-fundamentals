@@ -23,9 +23,19 @@ inside that member.
 // MyLocalFunction();
 // Lesson1Example();
 // Exercise1();
-Lesson2Example();
+// Lesson2Example();
+Exercise2();
 
 
+// Exercise 2 Strings
+void Exercise2()
+{
+    Exercise2 myExercise2 = new Exercise2();
+    myExercise2.StringMethodExamples(" EXERCISE two Lab ");
+    myExercise2.PilcrowSign();
+    myExercise2.JackAndJill();
+    Console.WriteLine(myExercise2.MovieFavorites());
+}
 
 // Lesson 2 Strings
 void Lesson2Example()
