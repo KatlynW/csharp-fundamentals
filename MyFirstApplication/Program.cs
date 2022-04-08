@@ -21,7 +21,8 @@ inside that member.
 // Lesson Examples
 // HouseExample();
 // MyLocalFunction();
-Lesson1Example();
+// Lesson1Example();
+Exercise1();
 
 void HouseExample()
 {
@@ -39,8 +40,18 @@ void Lesson1Example()
     myLesson.LongFromInt();
 }
 
+// Exercise1 Value Types
+void Exercise1()
+{
+    Exercise1 myExercise = new Exercise1();
+    myExercise.Number32();
+    myExercise.ImpConversion3arg(2, 6, 25685);
+    myExercise.ExpConversion3arg(12.34D, -123.6589F, 123456789L);
+    myExercise.TypeAssignment();
+}
+
 /*
- This local function is for my first exercise lab.
+ This local function is for my first(intro) exercise lab.
  */
 void MyLocalFunction()
 {
