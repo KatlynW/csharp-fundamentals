@@ -73,7 +73,7 @@ void Lesson1Example()
 void Exercise1()
 {
     Exercise1 myExercise = new Exercise1();
-    myExercise.Number32();
+    myExercise.Number35();
     myExercise.ImpConversion3arg(2, 6, 25685);
     myExercise.ExpConversion3arg(12.34D, -123.6589F, 123456789L);
     myExercise.TypeAssignment();

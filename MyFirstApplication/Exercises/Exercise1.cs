@@ -10,18 +10,18 @@ public class Exercise1
      * Console WriteLine. Utilize the conversion document from your resources.
      * a.Decimal b.Hexadecimal c.Binary
      */
-    public void Number32()
+    public void Number35()
     {
         // Decimal
-        int DecimalOutput = 32;
+        int DecimalOutput = 35;
         Console.WriteLine(DecimalOutput);
         // Hexadecimal
         // Note: The 0x tells us and the computer that it is in hexadecimal.
-        int HexadecimalOutput = 0x20;
+        int HexadecimalOutput = 0x23;
         Console.WriteLine(HexadecimalOutput);
         // Binary
         // Note: the b replaces 2nd to the zero before the first one.
-        int BinaryOutput = 0b100000;
+        int BinaryOutput = 0b100011;
         Console.WriteLine(BinaryOutput);
     }
 
@@ -36,7 +36,7 @@ public class Exercise1
     public void ImpConversion3arg(byte valByte, short valShort, int valInt)
     {
         // Convert from byte to int
-        int convert1 = (int)valByte;
+        int convert1 = valByte;
         Console.WriteLine(convert1);
 
         // Convert from short to long
@@ -102,4 +102,4 @@ public class Exercise1
 
     }
 
-}
+} // end class

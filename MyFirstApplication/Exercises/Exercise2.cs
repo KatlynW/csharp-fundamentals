@@ -13,15 +13,15 @@ public class Exercise2
     public void StringMethodExamples(string string1)
     {
         // A) Trim()
-        Console.WriteLine(string1.Trim());
+        Console.WriteLine("Trim() = " + string1.Trim());
         // B) ToLower()
-        Console.WriteLine(string1.ToLower());
+        Console.WriteLine("ToLower() = " + string1.ToLower());
         // C) Contains("tow")
-        Console.WriteLine(string1.Contains("tow"));
+        Console.WriteLine("Contains() = " + string1.Contains("tow"));
         // D) Length()
-        Console.WriteLine(string1.Length);
+        Console.WriteLine("Length() = " + string1.Length);
         // E) Index of('C')
-        Console.WriteLine(string1.IndexOf('C'));
+        Console.WriteLine("Index of('C') = " + string1.IndexOf('C'));
     }
 
     /*
@@ -64,4 +64,4 @@ public class Exercise2
             $"drinking {favMovieDrink}.";
     }
 
-}
+} // end class
