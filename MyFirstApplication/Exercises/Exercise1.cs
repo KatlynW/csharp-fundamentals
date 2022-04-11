@@ -1,6 +1,7 @@
 ﻿
 namespace MyFirstApplication;
 
+/* This class has my Lesson 1 examples covering value types. */
 public class Exercise1
 {
     /*

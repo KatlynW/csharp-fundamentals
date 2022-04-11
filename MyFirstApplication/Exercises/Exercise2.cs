@@ -1,6 +1,7 @@
 ﻿
 namespace MyFirstApplication;
 
+/* This class has my Lesson 2 examples covering strings */
 public class Exercise2
 {
     /*

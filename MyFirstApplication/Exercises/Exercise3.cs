@@ -1,6 +1,7 @@
 ﻿
 namespace MyFirstApplication;
 
+/* This class has my Lesson 3 examples covering operations and overflow checking */
 public class Exercise3
 {
     /*
