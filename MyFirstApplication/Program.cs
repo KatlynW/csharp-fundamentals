@@ -26,8 +26,26 @@ inside that member.
 // Lesson2Example();
 // Exercise2();
 // Lesson3Example();
-Exercise3();
+// Exercise3();
+Lesson4Example();
 
+
+// Lesson 4 Control Flow 
+void Lesson4Example()
+{
+    Lesson4 myLesson4 = new Lesson4();
+    // myLesson4.BasicIfStatement(11);
+    // myLesson4.BasicIfElseStatement(11);
+    // myLesson4.BasicIfElseChainStatement(5);
+    // myLesson4.BasicAndOrCondition(20, 20);
+    // Console.WriteLine(myLesson4.BasicTernaryExample(35));
+    // myLesson4.BasicSwitchStatement(3);
+    // myLesson4.BasicWhileStatement();
+    // myLesson4.BasicDoStatement();
+    // myLesson4.BasicForStatement();
+    // myLesson4.BasicForEachStatement();
+    myLesson4.BasicJumpStatement();
+}
 
 // Exercise 3 Operators
 void Exercise3()
