@@ -25,8 +25,19 @@ inside that member.
 // Exercise1();
 // Lesson2Example();
 // Exercise2();
-Lesson3Example();
+// Lesson3Example();
+Exercise3();
 
+
+// Exercise 3 Operators
+void Exercise3()
+{
+    Exercise3 myExercise3 = new Exercise3();
+    Console.WriteLine(myExercise3.ModulusPractice(2));
+    myExercise3.MathProblem();
+    myExercise3.CompoundPractice(20, 3);
+    myExercise3.BooleanOperatorPractice(false, false);
+}
 
 // Lesson 3 Operators and Overflow Checking
 void Lesson3Example()
