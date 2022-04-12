@@ -27,8 +27,18 @@ inside that member.
 // Exercise2();
 // Lesson3Example();
 // Exercise3();
-Lesson4Example();
+// Lesson4Example();
+Exercise4Example();
 
+
+// Exercise 4 Control Flow
+void Exercise4Example()
+{
+    Exercise4 myExercise4 = new Exercise4();
+    myExercise4.ComparingStrings("Tom", "Tom");
+    Console.WriteLine(myExercise4.GradeDescriptions('E'));
+    myExercise4.DivisibleBy3();
+}
 
 // Lesson 4 Control Flow 
 void Lesson4Example()
