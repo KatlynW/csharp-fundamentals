@@ -29,8 +29,19 @@ inside that member.
 // Exercise3();
 // Lesson4Example();
 // Exercise4Example();
-Lesson5Example();
+// Lesson5Example();
+Exercise5Example();
 
+
+
+// Exercise 5 Expression and Pattern Matching
+void Exercise5Example()
+{
+    Exercise5 myExercise5 = new Exercise5();
+    Console.WriteLine(myExercise5.FunctPractice(4, 4));
+    Console.WriteLine(myExercise5.GradeExpression('E'));
+    myExercise5.PopcornSize(40);
+}
 
 // Lesson 5 Expression and Pattern Matching 
 void Lesson5Example()
