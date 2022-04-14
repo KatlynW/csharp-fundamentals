@@ -31,8 +31,19 @@ inside that member.
 // Exercise4Example();
 // Lesson5Example();
 // Exercise5Example();
-Lesson6Examples();
+// Lesson6Examples();
+Exercise6Examples();
 
+
+
+// Exercise 6 Constructors, Methods, and More
+void Exercise6Examples()
+{
+    Exercise6 myExercise6 = new Exercise6(9, "Tennis");
+    Exercise6.TryOn theShoe = myExercise6.TryItOn;
+    theShoe($"I tried on the {myExercise6.ShoeType} shoes in size {myExercise6.ShowSize}.");
+
+}
 
 // Lesson 6 Constrctors, Methods, and More
 void Lesson6Examples()
