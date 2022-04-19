@@ -2,7 +2,7 @@
 namespace MyFirstApplication;
 
 /*
- A record is a reference type thst provides built-in functionality 
+ A record is a reference type that provides built-in functionality 
 for encapsulating data.
  */
 internal record Person(string firstName, string lastName);

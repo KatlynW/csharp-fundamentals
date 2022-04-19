@@ -33,8 +33,19 @@ inside that member.
 // Exercise5Example();
 // Lesson6Examples();
 // Exercise6Examples();
-Lesson7Examples();
+// Lesson7Examples();
+Exercise7Examples();
 
+
+void Exercise7Examples()
+{
+    Employee employee = new Employee(10, "Tom");
+    Console.WriteLine(employee);
+    Console.WriteLine(employee.Name);
+    myBoat firstBoat = new myBoat();
+    firstBoat.BoatDockUndock();
+
+}
 
 // Lesson 7 Records and Structs
 void Lesson7Examples()
