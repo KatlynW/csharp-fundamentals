@@ -32,9 +32,33 @@ inside that member.
 // Lesson5Example();
 // Exercise5Example();
 // Lesson6Examples();
-Exercise6Examples();
+// Exercise6Examples();
+Lesson7Examples();
 
 
+// Lesson 7 Records and Structs
+void Lesson7Examples()
+{
+    Location myLocation = new Location(34.5, 47.8);
+    Console.WriteLine(myLocation.Latitude);
+    Console.WriteLine(myLocation);
+
+    // Readonly Struct
+    Student myStudent = new Student(10, "Roger");
+    Console.WriteLine(myStudent);
+    Console.WriteLine(myStudent.StudentName);
+
+    // Record
+    Person person = new Person("Nancy", "Drew");
+    Console.WriteLine(person);
+    Console.WriteLine(person.lastName);
+
+    // Struct Record
+    Resolution res = new Resolution(1920, 1080);
+    res.CalculateRes();
+    Console.WriteLine(res);
+
+}
 
 // Exercise 6 Constructors, Methods, and More
 void Exercise6Examples()

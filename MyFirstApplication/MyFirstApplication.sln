@@ -10,6 +10,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		..\README.md = ..\README.md
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpBicycleProject", "..\..\csharp-bicycle-project\CSharpBicycleProject\CSharpBicycleProject.csproj", "{D73A8F0B-C153-4BC7-B88A-38D59EA7B4C7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +22,10 @@ Global
 		{91DFD3A7-43C6-4474-AD41-E5F8350A2151}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{91DFD3A7-43C6-4474-AD41-E5F8350A2151}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{91DFD3A7-43C6-4474-AD41-E5F8350A2151}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D73A8F0B-C153-4BC7-B88A-38D59EA7B4C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D73A8F0B-C153-4BC7-B88A-38D59EA7B4C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D73A8F0B-C153-4BC7-B88A-38D59EA7B4C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D73A8F0B-C153-4BC7-B88A-38D59EA7B4C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
