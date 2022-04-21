@@ -37,10 +37,60 @@ inside that member.
 // Exercise7Examples();
 // Lesson8Examples();
 // Exercise8Examples();
-Lesson9Examples();
+// Lesson9Examples();
+// Lesson10Examples();
+HouseUpdated();
 
 
 
+
+// House Updated
+void HouseUpdated()
+{
+    // Calling Default
+    House myHouse = new House();
+    Console.WriteLine(myHouse.RoofType);
+    myHouse.DoorOpenClose();
+
+    // Calling Constructor with 2 Parameters
+    House mySecond = new House("straw", "bamboo");
+    Console.WriteLine(mySecond.WindowSize);
+    mySecond.DoorOpenClose();
+
+    // Calling Constructor with 4 Parameters
+    House myThird = new House("dirt", "plastic", "green", 40);
+    Console.WriteLine(myThird.Foundation);
+    myThird.DoorOpenClose();
+
+}
+
+// Lesson 10
+void Lesson10Examples()
+{
+    Lesson10 myLesson10 = new Lesson10();
+
+    // Using this to call anothe constructor
+    Console.WriteLine(myLesson10.FirstName);
+
+    // Normal Property
+    myLesson10.FirstName = "Paul";
+    Console.WriteLine(myLesson10.FirstName);
+
+    // Calling Auto Property
+    // myLesson10.LastName = "Smith"; // only works in Lesson 10 Constructor
+    Console.WriteLine(myLesson10.Id); // default value
+    myLesson10.Id = 1500;
+    Console.WriteLine(myLesson10.Id);
+
+    // Expression bodied property
+    myLesson10.Address = "123 Main Street";
+    Console.WriteLine(myLesson10.Address);
+
+    // second constructor
+    Lesson10 myOther10 = new Lesson10("Ben", "Franklin", 64119);
+    Console.WriteLine(myOther10.Zipcode);
+
+}
 
 // Lesson 9
 void Lesson9Examples()
