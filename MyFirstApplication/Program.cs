@@ -42,9 +42,29 @@ inside that member.
 // HouseUpdated();
 // HorseExamples();
 // BoatExamples();
-Lesson11Example();
+// Lesson11Example();
+Exercise11Examples();
 
 
+// Children Classes Tests
+void Exercise11Examples()
+{
+    HotBloodedHorse horse1 = new HotBloodedHorse();
+    Console.WriteLine(horse1.Age);
+    horse1.HorseLayDownGetUp();
+    Console.WriteLine();
+    HotBloodedHorse horse2 = new HotBloodedHorse(12, 35, 25);
+    Console.WriteLine(horse2.Age);
+    horse2.RacingNotRacing();
+    Console.WriteLine();
+    SailBoat boat1 = new SailBoat();
+    Console.WriteLine(boat1.WoodType);
+    boat1.BoatDockUndock();
+    Console.WriteLine();
+    SailBoat boat2 = new SailBoat("Pink", "Acacia", "Cotton");
+    Console.WriteLine(boat2.WoodType);
+    boat2.SailFurlUnfurl();
+}
 
 // Lesson 11
 void Lesson11Example()
