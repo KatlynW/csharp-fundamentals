@@ -36,8 +36,22 @@ inside that member.
 // Lesson7Examples();
 // Exercise7Examples();
 // Lesson8Examples();
-Exercise8Examples();
+// Exercise8Examples();
+Lesson9Examples();
 
+
+
+
+// Lesson 9
+void Lesson9Examples()
+{
+    Lesson9 myLesson9 = new Lesson9();
+    Lesson9.Nested nested = new Lesson9.Nested(myLesson9);
+
+    // Access Modifiers
+    myLesson9.SampleInternal();
+    myLesson9.SampleProtectedInternal();
+}
 
 // Exercise 8
 void Exercise8Examples()
