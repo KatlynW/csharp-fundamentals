@@ -39,9 +39,53 @@ inside that member.
 // Exercise8Examples();
 // Lesson9Examples();
 // Lesson10Examples();
-HouseUpdated();
+// HouseUpdated();
+// HorseExamples();
+BoatExamples();
 
 
+// Boat Examples - Exercise 10
+void BoatExamples()
+{
+    // Default: Boat
+    Boat myBoat = new Boat();
+    Console.WriteLine(myBoat.WoodColor);
+    myBoat.BoatDockUndock();
+    Console.WriteLine();
+
+    // Constructor with 2: Boat
+    Boat myBoat2 = new Boat("Pink", "Acacia");
+    Console.WriteLine(myBoat2.WoodColor);
+    myBoat2.BoatDockUndock();
+    Console.WriteLine();
+
+    // Constructor with 3: Boat
+    Boat myBoat3 = new Boat("Dark Brown", "Jungle", 20);
+    Console.WriteLine(myBoat3.WoodColor);
+    myBoat3.BoatDockUndock();
+}
+
+// Horse Examples  - Exercise 10
+void HorseExamples()
+{
+    // Default: Horse
+    Horse myHorse = new Horse();
+    Console.WriteLine(myHorse.Age);
+    myHorse.HorseLayDownGetUp();
+    Console.WriteLine();
+
+    // Constructor with 2: Horse
+    Horse myHorse2 = new Horse(10, 30);
+    Console.WriteLine(myHorse2.Age);
+    myHorse2.HorseLayDownGetUp();
+    Console.WriteLine();
+
+    //Constructor with 3: Horse
+    Horse myHorse3 = new Horse(15, 20, 15);
+    Console.WriteLine(myHorse3.Age);
+    myHorse3.HorseLayDownGetUp();
+
+}
 
 
 // House Updated
