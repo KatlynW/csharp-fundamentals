@@ -1,0 +1,18 @@
+﻿
+namespace MyFirstApplication;
+
+/*
+ Static class must have static methods as you can not use instance methods.
+ */
+internal static class Lesson8Static
+{
+    public static double CelciusToFahrenheit(double celsius)
+    {
+        return (celsius * 9 / 5) + 32;
+    }
+
+    public static double FahrenheitToCelcius(double fahrenheit)
+    {
+        return (fahrenheit - 32) * 5 / 9;
+    }
+} // end class
