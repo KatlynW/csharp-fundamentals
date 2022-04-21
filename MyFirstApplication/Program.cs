@@ -35,7 +35,17 @@ inside that member.
 // Exercise6Examples();
 // Lesson7Examples();
 // Exercise7Examples();
-Lesson8Examples();
+// Lesson8Examples();
+Exercise8Examples();
+
+
+// Exercise 8
+void Exercise8Examples()
+{
+    Exercise8 myExercise8 = new Exercise8();
+    myExercise8.FeetToInches(3);
+    myExercise8.CalculateArea(4, 5);
+}
 
 
 // Lesson 8
