@@ -41,8 +41,22 @@ inside that member.
 // Lesson10Examples();
 // HouseUpdated();
 // HorseExamples();
-BoatExamples();
+// BoatExamples();
+Lesson11Example();
 
+
+
+// Lesson 11
+void Lesson11Example()
+{
+    Square square = new Square();
+    double total = square.CalculateInteriorAngle();
+    Console.WriteLine(total);
+
+    Triangle triangle = new Triangle();
+    double total2 = triangle.CalculateInteriorAngle();
+    Console.WriteLine(total2);
+}
 
 // Boat Examples - Exercise 10
 void BoatExamples()
