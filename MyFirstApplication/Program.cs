@@ -47,8 +47,18 @@ inside that member.
 // Lesson12Examples();
 // CondoExample();
 // Exercise12Examples();
-Lesson13Examples();
+// Lesson13Examples();
+Exercise13Example();
 
+
+
+// Exercise 13
+void Exercise13Example()
+{
+    Penguin mypenguin = new Penguin(6);
+    mypenguin.EggHolding();
+    mypenguin.WaterMovement();
+}
 
 void Lesson13Examples()
 {
