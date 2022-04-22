@@ -51,10 +51,21 @@ inside that member.
 // Exercise13Example();
 // Lesson14Example();
 // Exercise14Examples();
-Lesson15Example();
+// Lesson15Example();
+Exercise15Examples();
 
 
-// Lesson 15Enums and Tuples
+// Exercise 15
+void Exercise15Examples()
+{
+    Exercise15 myExercise15 = new Exercise15();
+    string message1 = myExercise15.FavoriteMovies1(FavoriteMovies.EnolaHolmes);
+    Console.WriteLine(message1);
+    (int val1, string val2) = myExercise15.FavoriteMovies2();
+    Console.WriteLine(val1 + " " + val2);
+}
+
+// Lesson 15 Enums and Tuples
 void Lesson15Example()
 {
     Lesson15 myLesson15 = new Lesson15();
