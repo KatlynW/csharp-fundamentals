@@ -43,8 +43,30 @@ inside that member.
 // HorseExamples();
 // BoatExamples();
 // Lesson11Example();
-Exercise11Examples();
+// Exercise11Examples();
+// Lesson12Examples();
+CondoExample();
 
+
+// Condo
+void CondoExample()
+{
+    Condo myCondo = new Condo();
+    myCondo.Maintenance();
+    myCondo.DoorOpenClose();
+    Console.WriteLine(myCondo.RoofType);
+}
+
+// Lesson 12 Polymorphism
+void Lesson12Examples()
+{
+    Fruit myfruit = new Fruit();
+    myfruit.EatFruit();
+    myfruit.EatFruit(3);
+    Apple myapple = new Apple();
+    myapple.EatFruit();
+
+}
 
 // Children Classes Tests
 void Exercise11Examples()
