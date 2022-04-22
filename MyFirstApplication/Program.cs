@@ -50,8 +50,21 @@ inside that member.
 // Lesson13Examples();
 // Exercise13Example();
 // Lesson14Example();
-Exercise14Examples();
+// Exercise14Examples();
+Lesson15Example();
 
+
+// Lesson 15Enums and Tuples
+void Lesson15Example()
+{
+    Lesson15 myLesson15 = new Lesson15();
+    // myLesson15.EnumExample();
+    string flavor = myLesson15.FavoriteIceCream(IceCreamFlavors.Chocolate);
+    // Console.WriteLine(flavor);
+    // myLesson15.TupleExample();
+    (int val1, int val2, int val3) = myLesson15.TupleReturnExample(11, 35);
+    Console.WriteLine($"Answers are {val1}, {val2}, and {val3}.");
+}
 
 // Exercise 14
 void Exercise14Examples()
