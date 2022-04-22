@@ -36,9 +36,21 @@ internal class Horse
         :this(5, 45) { }
 
     // Horse Method
-    public void HorseLayDownGetUp()
+    public virtual void HorseLayDownGetUp()
     {
         Console.WriteLine($"The {Age} year-old horse gets up.");
+    }
+
+    /*
+     In your Horse class, add the virtual keyword to your method created in Lesson 10. Create 
+    a second version of the same method and add a parameter. Include a Console WriteLine 
+    method in the new method that uses the parameter. This parameter needs to be based on one 
+    of your properties.
+     */
+
+    public void HorseLayDownGetUp(int hairLength)
+    {
+        Console.WriteLine($"The horse with {hairLength} inch long hair gets up.");
     }
 
 

@@ -52,5 +52,15 @@ internal class SailBoat : Boat
         Console.WriteLine($"The {SailMaterial} sail unfurls");
     }
 
+    /*
+    In your child class of Boat, using the override keyword create a method that has the same 
+    name as the virtual method from Boat. Add a Console WriteLine that provides a different 
+    message from the Boat
+    */
+
+    public override void BoatDockUndock()
+    {
+        Console.WriteLine($"The {WoodColor} boat is not in the dock");
+    }
 
 }// end class

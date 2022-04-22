@@ -45,8 +45,23 @@ inside that member.
 // Lesson11Example();
 // Exercise11Examples();
 // Lesson12Examples();
-CondoExample();
+// CondoExample();
+Exercise12Examples();
 
+
+// Exercise 12
+void Exercise12Examples()
+{
+    Horse myHorse = new Horse();
+    myHorse.HorseLayDownGetUp(20);
+    HotBloodedHorse myHorse2 = new HotBloodedHorse();
+    myHorse2.HorseLayDownGetUp();
+    Boat myBoat = new Boat();
+    myBoat.BoatDockUndock("Oak");
+    SailBoat mySailBoat = new SailBoat();
+    mySailBoat.BoatDockUndock();
+
+}
 
 // Condo
 void CondoExample()

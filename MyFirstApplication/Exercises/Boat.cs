@@ -58,9 +58,21 @@ internal class Boat
         :this("Light Brown", "Oak") { }
 
     // Boat Method
-    public void BoatDockUndock()
+    public virtual void BoatDockUndock()
     {
         Console.WriteLine($"The {WoodColor} boat is docked");
+    }
+
+    /*
+     In your Boat class, add the virtual keyword to your method created in Lesson 10. Create a 
+    second version of the same method and add a parameter. Include a Console WriteLine method 
+    in the new method that uses the parameter. This parameter needs to be based on one of your 
+    properties.
+     */
+
+    public void BoatDockUndock(string woodType)
+    {
+        Console.WriteLine($"The boat made of {woodType} is docked");
     }
 
 } // end class
