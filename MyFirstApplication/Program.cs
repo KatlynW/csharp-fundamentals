@@ -52,8 +52,17 @@ inside that member.
 // Lesson14Example();
 // Exercise14Examples();
 // Lesson15Example();
-Exercise15Examples();
+// Exercise15Examples();
+Lesson16Examples();
 
+
+// Lesson 16
+void Lesson16Examples()
+{
+    Lesson16 myLesson16 = new Lesson16();
+    // myLesson16.MyListExample();
+    myLesson16.MyDictionaryExample();
+}
 
 // Exercise 15
 void Exercise15Examples()
